@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, Navigate} from "react-router-dom";
-import { Auth } from './components/User.js/Auth';
+import { Auth } from './components/User/Auth';
 import React, { useState } from 'react';
 import Cookies from "universal-cookie";
 import { SearchPaste } from './components/Paste/SearchPaste';
